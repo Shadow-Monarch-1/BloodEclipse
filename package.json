@@ -1,14 +1,16 @@
 {
-  "name": "blood-eclipse-bot",
-  "version": "1.0.0",
+  "name": "bloodeclipse-ai",
+  "version": "3.0.0",
+  "description": "BloodEclipse Discord AI Bot",
   "type": "module",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
+    "axios": "^1.6.7",
     "discord.js": "^14.16.0",
-    "axios": "^1.6.8",
-    "dotenv": "^16.4.5"
+    "dotenv": "^16.4.5",
+    "node-fetch": "^3.3.2"
   }
 }
